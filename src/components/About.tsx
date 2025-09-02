@@ -55,8 +55,7 @@ const about = () => {
                 </div>
            
             </div>
-        {/* <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum distinctio nihil itaque adipisci asperiores magni harum neque, dolores aperiam.</P> */}
-    </div>
+        </div>
   )
 }
 
