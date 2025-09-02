@@ -41,13 +41,13 @@ const about = () => {
             <sub className='md:text-3xl text-xl font-medium mt-3  text-gray-400 '><a href="" className='underline'>Let's Connect</a></sub></div>
             <div className='flex flex-3 md:mt-10 mt-5 px-10 md:gap-10 md:w-7xl w-screen gap-3 md:px-80 flex-wrap'>
                 <div className="github flex flex-row items-center justify-center gap-4 md:text-2xl font-medium">
-                    <Github  className='text-20'/> <a href="#" className='underline'>Github</a>
+                    <Github  className='text-20'/> <a href="https://github.com/nottrzz" className='underline'>Github</a>
                 </div>
                 <div className="github flex flex-row items-center  justify-center gap-4 md:text-2xl font-medium">
-                    <Instagram className='text-20'/> <a href="#" className='underline'>@rzmhr.</a>
+                    <Instagram className='text-20'/> <a href="https://www.instagram.com/_rzmhr/" className='underline'>@rzmhr.</a>
                 </div>
                 <div className="github flex flex-row items-center justify-center gap-4 md:text-2xl font-medium">
-                    <Mails className='text-20'/> <a href="#" className='underline'>rosizamhari@gmail.com</a>
+                    <Mails className='text-20'/> <a href="rosizamhari@gmail.com" className='underline'>rosizamhari@gmail.com</a>
                 </div>
                 <div className="github flex flex-row items-center justify-center gap-4 md:text-2xl font-medium">
                     <Linkedin className='text-20'/> <a href="#" className='underline'>_rzmhrr-</a>

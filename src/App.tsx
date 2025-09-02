@@ -21,8 +21,8 @@ const App = () => {
       <div className='container relative  mx-auto mt-25 md:mt-0 px-1 md:flex-row flex flex-col items-center gap-12 bg-fixed'>
 
         <div className="flex-1 text-center md:text-left flex-col flex gap-y-4 md:gap-y-7">
-          <p className='text-lg text-[#7000D2] font-medium -mb-4'>Hi, Saya</p>
-          <h1 className='text-4xl font-bold md:text-6xl '>ROSIZAMHARI <span className='text-[#7000D2]'>Web Developer</span></h1>
+          <p className='text-lg text-[#341BAC] font-medium -mb-4'>Hi, Saya</p>
+          <h1 className='text-4xl font-bold md:text-6xl '>ROSIZAMHARI <span className='text-[#341BAC]'>Web Developer</span></h1>
           <p className='text-gray-300 max-w-lg md:text-xl md:max-w-max'> Saya seorang Web Developer yang fokus membangun website modern, 
             responsif, dan user-friendly menggunakan teknologi terbaru seperti 
             React, TailwindCSS, dan JavaScript.</p>
@@ -32,13 +32,13 @@ const App = () => {
             <div className="mt-5 flex items-cente justify-center md:justify-start 
             w-full gap-4">
               <a href="#" className='py-2 md:px-5 md:py-2.5 px-2 border-1 
-              items-center rounded-4xl bg-[#7000D2]
-               border-[#7000D2] font-bold transition duration-300 shadow-md
-                hover:shadow-[#7000D2] ' >My Prooject</a>
-              <a href="#" className='py-2 md:px-5 md:py-2.5 px-2 border-1 
-              items-center rounded-4xl hover:bg-[#7000D2] 
-              hover:border-[#7000D2] font-bold transition duration-300 
-              shadow-md hover:shadow-[#7000D2]' >Download CV</a>
+              items-center rounded-4xl bg-[#341BAC]
+               border-[#341BAC] font-bold transition duration-300 shadow-md
+                hover:shadow-[#341BAC] '>My Prooject</a>
+              <a href="https://drive.google.com/file/d/1yBUEp2EqM71T-5_tcfeAfQ_OfNEMhwrl/view?usp=sharing" className='py-2 md:px-5 md:py-2.5 px-2 border-1 
+              items-center rounded-4xl hover:bg-[#341BAC] 
+              hover:border-[#341BAC] font-bold transition duration-300 
+              shadow-md hover:shadow-[#341BAC]' >Download CV</a>
             </div>
         </div>
 
