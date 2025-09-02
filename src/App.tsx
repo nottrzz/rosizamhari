@@ -1,13 +1,6 @@
-// import React from 'react'
-// import { Image } from 'lucide-react'
 import About from './components/About'
-import ElectricBorder from './components/electricBorder'
 import Particles from './components/particles'
 import ProfileCard from './components/ProfileCard'
-// import ScrollStack, { ScrollStackItem } from './components/ScrollStack'
-// import ScrollStack, { ScrollStackItem } from './ScrollStack'
-// import AnimatedContent from './components/animatedContent'
-
 
 const App = () => {
   return (
@@ -50,38 +43,13 @@ const App = () => {
         </div>
 
         <div className="flex-1 flex justify-center md:justify-center w-screen md:h-screen flex-col items-center ">
-          {/* <img src="../assets/img/me.jpg" alt="rosizamhari" className='w-64 h-64 md:w-90 md:h-90 object-cover rounded-full border-4
-           border-[#7000D2] shadow-lg grayscale hover:grayscale-0 transition duration-300 ease-in shadow-[#7000D2] shadow-md'/> */}
-           {/* <FlipCard/> */}
-           <ProfileCard avatarUrl={'../assets/img/me-r.png'} className='cursor-pointer py-3 z-10'/>
+           <ProfileCard avatarUrl={'https://k.top4top.io/p_35324vszz1.png'} className='cursor-pointer py-3 z-10'/>
         </div>
       </div>
 
      <div className="container w-screen min-h-screen rounded-t-4xl bg-black shadow-2xl mt-10 md:rounded-[100px] sticky" id='about'>
       <About/>
-     </div>
-     <div className="container w-screen min-h-screen rounded-t-4xl flex flex-wrap flex-row items-center bg-black shadow-2xl mt-10 md:rounded-[100px] sticky">
-      {/* <div > */}
-      <ElectricBorder
-        color="#7000D2"
-        speed={1}
-        chaos={0.5}
-        thickness={2}
-        style={{ borderRadius: 16 }}
-
-        className="w-90 h-120"
-      >
-        <div className='w-3xl h-3'>
-          <p style={{ margin: '6px 0 0', opacity: 0.8 }}>
-            afalwlafalfakfkf
-          </p>
-        </div>
-      </ElectricBorder>
-      </div>
-     {/* </div> */}
-
-      
-     
+     </div>     
     </div>
 
 // #7000D2
