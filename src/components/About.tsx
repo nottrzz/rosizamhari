@@ -1,6 +1,5 @@
 
 import {  Github, Instagram, Linkedin, Mails } from 'lucide-react'
-import React from 'react'
 import AnimatedContent from './animatedContent'
 
 const about = () => {
