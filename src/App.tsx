@@ -1,6 +1,7 @@
 // import React from 'react'
 // import { Image } from 'lucide-react'
 import About from './components/About'
+import ElectricBorder from './components/electricBorder'
 import Particles from './components/particles'
 import ProfileCard from './components/ProfileCard'
 // import ScrollStack, { ScrollStackItem } from './components/ScrollStack'
@@ -14,7 +15,7 @@ const App = () => {
     <div className='text-white min-h-screen items-center flex flex-col relative'>
       <div className='absolute h-screen w-screen -z-10'>
       <Particles
-      particleColors={['#ffffff', '#ffffff']}
+      particleColors={['#341BAC', '#341BAC']}
       particleCount={300}
       particleSpread={10}
       speed={0.1}
@@ -32,6 +33,8 @@ const App = () => {
           <p className='text-gray-300 max-w-lg md:text-xl md:max-w-max'> Saya seorang Web Developer yang fokus membangun website modern, 
             responsif, dan user-friendly menggunakan teknologi terbaru seperti 
             React, TailwindCSS, dan JavaScript.</p>
+
+            {/* #341BAC */}
 
             <div className="mt-5 flex items-cente justify-center md:justify-start 
             w-full gap-4">
@@ -57,6 +60,25 @@ const App = () => {
      <div className="container w-screen min-h-screen rounded-t-4xl bg-black shadow-2xl mt-10 md:rounded-[100px] sticky" id='about'>
       <About/>
      </div>
+     <div className="container w-screen min-h-screen rounded-t-4xl flex flex-wrap flex-row items-center bg-black shadow-2xl mt-10 md:rounded-[100px] sticky">
+      {/* <div > */}
+      <ElectricBorder
+        color="#7000D2"
+        speed={1}
+        chaos={0.5}
+        thickness={2}
+        style={{ borderRadius: 16 }}
+
+        className="w-90 h-120"
+      >
+        <div className='w-3xl h-3'>
+          <p style={{ margin: '6px 0 0', opacity: 0.8 }}>
+            afalwlafalfakfkf
+          </p>
+        </div>
+      </ElectricBorder>
+      </div>
+     {/* </div> */}
 
       
      

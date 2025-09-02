@@ -19,7 +19,7 @@ const about = () => {
                 threshold={0.2}
                 delay={0.3}
             >
-            <h1 className='md:text-5xl text-3xl font-bold mb-2 md:mb-4 md:self-start flex items-center px-10 md:px-0 '>ABOUT ME</h1>
+            <h1 className='md:text-5xl bg-[#341BAC] text-3xl font-bold mb-2 md:mb-4 md:self-start flex items-center px-10 md:px-0 '>ABOUT ME</h1>
             </AnimatedContent>
         </div>
         <div className="max-w-4xl px-10 md:px-28">
