@@ -23,7 +23,7 @@ const Navbar = () => {
   //     `}
   //   >
   return (
-    <div className='fixed w-full left-0 shadow-md top-0 text-amber-50 backdrop-blur-3xl '>
+    <div className='fixed w-full left-0 shadow-md top-0 text-amber-50 backdrop-blur-3xl z-50 '>
     {/* // <div className={`w-full left-0 shadow-md top-0 text-amber-50 backdrop-blur-3xl md:${isFixed ?"backdrop-blur-sm fixed top-0 left-0 z-50" : "flex" } ${isFixed ?"backdrop-blur-sm fixed top-0 left-0" : "" }`}> */}
       <div className="container flex mx-auto py-4 px-4  items-center justify-between">
         <h1 className='text-xl font-bold md:bg-transparent bg-[#7000D2] md:text-2xl'>ROSIZAMHARI</h1>
