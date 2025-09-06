@@ -1,7 +1,11 @@
+// import { Contact } from 'lucide-react'
 import About from './components/About'
+import Contact from './components/contact'
 import Particles from './components/particles'
 import ProfileCard from './components/ProfileCard'
+import Project from './components/Project'
 import TechStack from './components/TechStack'
+// import TechStack from './components/TechStack'
 
 const App = () => {
   return (
@@ -53,9 +57,23 @@ const App = () => {
       <About/>
      </div>
 
-     <div className="container w-screen min-h-screen rounded-t-4xl mt-10 overflow-x-hidden sticky " id='about'>
+     <div className="container w-screen min-h-screen rounded-t-4xl mt-10 overflow-x-hidden sticky " id='project'>
       <TechStack/>
+     </div>
+
+     <div className="container w-screen min-h-screen rounded-t-4xl mt-10 overflow-x-hidden sticky " id='project'>
+      <Project/>
      </div> 
+
+     <div className="container w-screen min-h-screen rounded-t-4xl mt-10 overflow-x-hidden sticky " id='contact'>
+      <Contact/>
+     </div> 
+
+     <div className="container w-screen mt-10 overflow-x-hidden bg-black rounded-full py-5 flex items-center justify-center ">
+      <div>
+      <i className='text-center mx-auto text-gray-500'>copyright 2025 rosizamhari</i>
+      </div>
+     </div>
 
     </div>
 

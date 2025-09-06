@@ -36,10 +36,10 @@ const Navbar = () => {
             <a href="#about" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>About</a>
           </li>
           <li>
-            <a href="#" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Project</a>
+            <a href="#project" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Project</a>
           </li>
           <li>
-            <a href="#" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Contact</a>
+            <a href="#contact" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Contact</a>
           </li>
         </ul>
         
@@ -65,10 +65,10 @@ const Navbar = () => {
             <a href="#about" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>About</a>
           </li>
           <li>
-            <a href="#" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Project</a>
+            <a href="#project" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Project</a>
           </li>
           <li>
-            <a href="#" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Contact</a>
+            <a href="#contact" className='hover:text-[#341BAC] transition duration-300 ease-in-out font-bold'>Contact</a>
           </li>
           </ul>
           <ZapOff size={50} className='absolute right-10 bottom-13 opacity-5  hover:text-[#341BAC] hover:opacity-100' />
