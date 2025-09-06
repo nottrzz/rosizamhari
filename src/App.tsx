@@ -1,6 +1,7 @@
 import About from './components/About'
 import Particles from './components/particles'
 import ProfileCard from './components/ProfileCard'
+import TechStack from './components/TechStack'
 
 const App = () => {
   return (
@@ -22,8 +23,8 @@ const App = () => {
 
         <div className="flex-1 text-center md:text-left flex-col flex gap-y-4 md:gap-y-7">
           <p className='text-lg text-[#341BAC] font-medium -mb-4'>Hi, Saya</p>
-          <h1 className='text-4xl font-bold md:text-6xl '>ROSIZAMHARI <span className='text-[#341BAC]'>Web Developer</span></h1>
-          <p className='text-gray-300 max-w-lg md:text-xl md:max-w-max'> Saya seorang Web Developer yang fokus membangun website modern, 
+          <h1 className='text-5xl font-bold md:text-7xl '>ROSIZAMHARI <span className='text-[#341BAC]'>Web Developer</span></h1>
+          <p className='text-gray-300 max-w-lg md:text-2xl text-2xl md:max-w-max'> Saya seorang Web Developer yang fokus membangun website modern, 
             responsif, dan user-friendly menggunakan teknologi terbaru seperti 
             React, TailwindCSS, dan JavaScript.</p>
 
@@ -31,11 +32,12 @@ const App = () => {
 
             <div className="mt-5 flex items-cente justify-center md:justify-start 
             w-full gap-4">
-              <a href="#" className='py-2 md:px-5 md:py-2.5 px-2 border-1 
+              <a href="#" className='py-2 md:px-6 md:py-4 px-2 border-1 
               items-center rounded-4xl bg-[#341BAC]
                border-[#341BAC] font-bold transition duration-300 shadow-md
                 hover:shadow-[#341BAC] '>My Prooject</a>
-              <a href="https://drive.google.com/file/d/1yBUEp2EqM71T-5_tcfeAfQ_OfNEMhwrl/view?usp=sharing" className='py-2 md:px-5 md:py-2.5 px-2 border-1 
+              <a href="https://drive.google.com/file/d/1yBUEp2EqM71T-5_tcfeAfQ_OfNEMhwrl/view?usp=sharing"
+               className='py-2 md:px-6 md:py-4 px-2 border-1 
               items-center rounded-4xl hover:bg-[#341BAC] 
               hover:border-[#341BAC] font-bold transition duration-300 
               shadow-md hover:shadow-[#341BAC]' >Download CV</a>
@@ -47,9 +49,14 @@ const App = () => {
         </div>
       </div>
 
-     <div className="container w-screen min-h-screen rounded-t-4xl bg-black shadow-2xl mt-10 md:rounded-[100px] sticky" id='about'>
+     <div className="container w-screen min-h-screen rounded-t-4xl bg-black shadow-2xl mt-10 md:rounded-[100px] overflow-x-hidden sticky" id='about'>
       <About/>
-     </div>     
+     </div>
+
+     <div className="container w-screen min-h-screen rounded-t-4xl mt-10 overflow-x-hidden sticky " id='about'>
+      <TechStack/>
+     </div> 
+
     </div>
 
 // #7000D2
