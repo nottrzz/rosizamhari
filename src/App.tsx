@@ -1,6 +1,6 @@
 // import { Contact } from 'lucide-react'
 import About from './components/About'
-import Contact from './components/contact'
+import Contact from './components/Contact'
 import Particles from './components/particles'
 import ProfileCard from './components/ProfileCard'
 import Project from './components/Project'

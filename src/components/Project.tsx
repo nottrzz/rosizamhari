@@ -37,18 +37,18 @@ export default function ProjectsSection() {
           {projects.map((proj) => (
             <Card
               key={proj.id}
-              className="bg-gray-800 border-none shadow-lg hover:shadow-xl transition rounded-2xl overflow-hidden flex flex-col transform hover:-translate-y-1 duration-300"
+              className=" border-none shadow-lg hover:shadow-xl transition rounded-2xl overflow-hidden flex flex-col transform hover:-translate-y-1 duration-300"
             //   style={{ animation: `fadeInUp 0.6s ease ${index * 0.2}s both` }}
             >
               <img
                 src={proj.image}
                 alt={proj.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover backdrop-grayscale-50 backdrop-brightness-75 backdrop-contrast-10"
               />
               <CardContent className="flex-1 flex flex-col justify-between p-6">
                 <div>
                   <h3 className="text-lg sm:text-xl font-semibold mb-2">{proj.title}</h3>
-                  <p className="text-gray-400 mb-4 text-sm sm:text-base">{proj.description}</p>
+                  <p className="text-gray-600 mb-4 text-sm sm:text-base">{proj.description}</p>
                 </div>
                 <Button className="bg-gray-700 text-white hover:bg-gray-600 w-full mt-auto">
                   <a href={proj.link} target="_blank" rel="noopener noreferrer">
